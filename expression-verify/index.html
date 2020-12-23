@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>An Expression Validation</title>
+
+</head>
+
+<body>
+
+    <div class="card card-body mb-3">
+        <h1 style="text-align: center;">An Expression Validation App </h1>
+        <div class="row">
+            <div class="col-md-5"> </div>
+
+            <ul class="list-group" style="padding: 50px 0px;text-align: left; font-size: 20px;">
+                <li class="list-group-item" id="one">1. Email</li>
+                <li class="list-group-item" id="two">2. Phone Number</li>
+                <li class="list-group-item" id="three">3. Post Code</li>
+            </ul>
+        </div>
+
+        <div class="col-md-3" style="left: 510px ">
+            <p class="lead">Enter your Expression. </p>
+            <input type="text" id="searchUser" class="form-control" placeholder="Expression...">
+            <br>
+            <button id="searchBtn" class="btn btn-success">Search</button>
+        </div>
+        <br>
+        <div id="display" style="text-align: center;"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer style="padding: 40px; text-align: center; color: #000; font-size: 12px;">
+        <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script> Sharmin
+        </p>
+    </footer>
+
+</body>
+
+</html>
